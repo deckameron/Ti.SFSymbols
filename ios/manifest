@@ -1,0 +1,19 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 2
+architectures: arm64 x86_64
+mac: false
+description: Full SF Symbols for Titanium: effects, transitions, rendering modes, variable values
+author: Douglas Alves
+license: Specify your license
+copyright: Copyright (c) 2026 by Your Company
+
+# these should not be edited
+name: Ti.SFSymbols
+moduleid: ti.sfsymbols
+guid: f0ba556d-6a3b-4020-a11b-ae8f78ecb8fc
+platform: iphone
+minsdk: 13.4.1.GA

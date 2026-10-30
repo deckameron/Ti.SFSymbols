@@ -1,0 +1,26 @@
+cat > .gitignore << 'EOF'
+# Titanium module build output
+build/
+ios/build/
+android/build/
+
+# Xcode
+*.xcuserstate
+xcuserdata/
+DerivedData/
+
+# macOS
+.DS_Store
+
+# Distribution
+dist/
+*.zip
+EOF
+
+android/.gradle
+android/build
+android/libs
+android/example
+android/dist
+android/java-sources.txt
+android/build.properties
